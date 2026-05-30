@@ -1,0 +1,29 @@
+# Core Dependencies
+litellm>=1.0.0
+asyncio
+aiohttp
+tenacity>=8.0.0
+
+# Data Processing
+pandas>=1.5.0
+numpy>=1.22.0
+jsonlines
+
+# Progress & Utilities
+tqdm
+python-dotenv
+pathlib
+
+# AWS SDK (for Bedrock)
+boto3>=1.26.0
+botocore>=1.29.0
+
+# Visualization (optional, for notebooks)
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.0.0
+
+# Jupyter Support (optional)
+jupyter
+ipykernel
+notebook

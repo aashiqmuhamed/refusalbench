@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Configuration
+config.py
+.env
+*.env
+
+# API Keys and Credentials
+*credentials*
+*secrets*
+*.key
+*.pem
+
+# Data and Results
+refusalbench/dataset_*/
+refusalbench/garage_data/
+refusalbench/*_results*/
+refusalbench/*_output*/
+refusalbench/*_temp*/
+*.jsonl
+*.csv
+!*_template.jsonl
+!*_example.csv
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Large model files
+*.pkl
+*.h5
+*.pt
+*.pth
+*.ckpt
+
+# Plots and figures (keep selected ones for README)
+*.png
+*.pdf
+*.svg
+!docs/images/*
